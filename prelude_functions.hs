@@ -5,8 +5,6 @@ mapp f l = [f x | x<- l]
 
 filterr f l = [ x | x <- l, (f x)]
 
-zipp l1 l2 = [a | a <- (zip l1 l2)]	
-
 zipp l1 l2 = [a | a <- (func l1 l2)]
 
 func [] [] = []
